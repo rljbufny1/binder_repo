@@ -7,3 +7,5 @@ dependencies:
   - numpy
   - pandas
   - seaborn
+  - pip:
+     - hublib==0.9.97
