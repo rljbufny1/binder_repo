@@ -1,8 +1,9 @@
-name: example-environment
+name: alps-environment
 channels:
   - conda-forge
 dependencies:
+  - hublib
+  - matplotlib
   - numpy
   - pandas
-  - matplotlib
   - seaborn
