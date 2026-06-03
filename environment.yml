@@ -2,10 +2,8 @@ name: alps-environment
 channels:
   - conda-forge
 dependencies:
-  - hublib
   - matplotlib
   - numpy
   - pandas
   - seaborn
-  - pip:
-     - hublib==0.9.97
+  
