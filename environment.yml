@@ -6,4 +6,5 @@ dependencies:
   - numpy
   - pandas
   - seaborn
+  - xarray
   
