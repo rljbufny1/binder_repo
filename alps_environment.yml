@@ -1,0 +1,9 @@
+name: alps-environment
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - seaborn
+  
