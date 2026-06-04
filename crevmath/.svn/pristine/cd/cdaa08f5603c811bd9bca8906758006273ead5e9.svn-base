@@ -1,8 +1,0 @@
-#!/bin/sh
-
-#
-# jupyter tool
-#
-/usr/bin/invoke_app "$@" -t crevmath \
-                         -C "start_jupyter -T @tool crevmath.ipynb" \
-                         -u anaconda-7 -r none -w headless
