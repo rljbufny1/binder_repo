@@ -265,9 +265,9 @@ def quantile_mine(Data,q,k):
         val = Data[round(fac)-1,0]
     else:
         if fac == n1:
-            val = Data[round(fac)-1,0]
+            val = Data[int(round(fac))-1,0]
         else:
-            val = (Data[round(fac)-1,0]+Data[round(fac),0])/2
+            val = (Data[int(round(fac))-1,0]+Data[int(round(fac)),0])/2
     return val
 
 
